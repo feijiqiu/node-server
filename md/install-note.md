@@ -1,7 +1,7 @@
 ### [express 项目初始化](http://www.expressjs.com.cn/)
 
 1. 安装 node、npm、yarn 环境
-2. 初始化 node 项目 
+2. 初始化 node express 项目 
 
 ``` http://www.expressjs.com.cn/starter/installing.html)
 
@@ -14,4 +14,10 @@
     yarn add @types/node -D
 ```  
     
+3. 添加常用 [中间件](http://www.expressjs.com.cn/resources/middleware.html)
+``` Express Middleware
+    yarn add body-parser cookie-parser serve-favicon
+``` 
+
+   
     
